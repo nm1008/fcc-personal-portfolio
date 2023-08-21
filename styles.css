@@ -10,164 +10,22 @@
 
 
 
+.capstone-border{
+  margin-top: 30px;
+}
+
+@media (max-width: 766px){
+  .profile-text{
+    margin-top: 30px;
+    text-align: center;
+  }
+}
 
 @media (max-width: 425px){
   .profile-text{
     margin-top: 30px;
     text-align: center;
   }
- 
+
+
 }
-
-
-
-
-
-/* 
-.container-profile {
-  margin-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-@media (max-width: 1440px) {
-  .container-profile {
-    margin-top: -10px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .container-profile {
-    margin-top: -10px;
-  }
-
-  .profile-text {
-    width: 400px;
-  }
-
-  .profile-text h1 {
-    font-size: 28px;
-    font-weight: 550;
-  }
-
-  .profile-text h4 {
-    font-size: 14px;
-  }
-
-  .profile-picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (max-width: 768px) {
-  .container-profile {
-    margin-top: -10px;
-   
-  }
-
-  .profile-container {
-    
-    margin: 0;
-    display: flex;
-    align-items: center;
-    height: 300px;
-  }
-
-  .profile-text {
-    text-align: center;
-    width: 400px;
-  }
-
-  .profile-text h1 {
-    font-size: 24px;
-  }
-
-  .profile-text h4 {
-    font-size: 14px;
-  }
-
-  .profile-text p {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 762px){
-    .profile-contianer{
-        height: 1000px;
-    }
-}
-
-@media (max-width: 572px){
-    .profile-container{
-        height: 700px;
-    }
-}
-
-
-@media (max-width: 425px) {
-  .container-profile {
-    margin-top: -25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .profile-container {
-    height: 600px;
-    width: 350px;
-  }
-
-  .profile-text {
-    text-align: center;
-  }
-
-  .profile-text h1 {
-    font-size: 24px;
-  }
-
-  .profile-text h4 {
-    font-size: 14px;
-  }
-
-  .profile-text p {
-    font-size: 12px;
-    width: 150px;
-    margin-left: 40px;
-  }
-
-  .profile-picture {
-    margin-top: -50px;
-    width: 270px;
-  }
-}
-
-@media (max-width: 375px) {
-  .container-profile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .profile-container {
-    width: 300px;
-  }
-
-  .profile-text {
-    text-align: center;
-  }
-
-  .profile-text p {
-    margin-left: 30px;
-  }
-
-  .profile-picture {
-    margin-top: -50px;
-  }
-}
-
-@media (max-width: 320px) {
-  .profile-container {
-    width: 250px;
-  }
-} */
