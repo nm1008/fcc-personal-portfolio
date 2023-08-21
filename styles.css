@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 .navbar-brand,
 .nav-link {
   font-size: 1.2em;
@@ -19,6 +21,17 @@
 
 .css {
   width: 140px;
+}
+
+iframe {
+  width: 600px;
+  height: 400px;
+}
+
+textarea {
+  width: 650px;
+  height: 150px;
+  padding: 10px;
 }
 
 /* MEDIA QUERY */
@@ -42,12 +55,12 @@
   }
 
   .icon {
-    width: 170px;
+    width: 160px;
     padding: 10px;
   }
 
   .css {
-    width: 140px;
+    width: 130px;
   }
 }
 
@@ -62,5 +75,16 @@
     padding: 10px;
   }
 
+  .css{
+    width: 120px;
+  }
+}
 
+@media (max-width: 375){
+  .icon{
+    width: 100px;
+  }
+  .css{
+    width: 80px;
+  }
 }
