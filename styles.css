@@ -4,7 +4,20 @@
   box-sizing: border-box;
 }
 
+/* VIEWPORT */
+.main {
+  height: 70vh;
+}
 
+.project {
+  height: 65vh;
+}
+
+.tech {
+  height: 80vh;
+}
+
+/* VIEWPORT END */
 
 .navbar-brand,
 .nav-link {
@@ -35,7 +48,6 @@ textarea {
 }
 
 /* MEDIA QUERY */
-
 @media (max-width: 1194px) and (min-width: 1024px) {
   .css {
     width: 110px;
@@ -46,6 +58,11 @@ textarea {
   .css {
     width: 70px;
   }
+
+  /* VIEWPORT */
+  .tech {
+    height: 65vh;
+  }
 }
 
 @media (max-width: 768px) {
@@ -55,12 +72,17 @@ textarea {
   }
 
   .icon {
-    width: 160px;
+    width: 120px;
     padding: 10px;
   }
 
   .css {
-    width: 130px;
+    width: 100px;
+  }
+
+  /* VIEWPORT */
+  .main {
+    height: 80vh;
   }
 }
 
@@ -75,16 +97,53 @@ textarea {
     padding: 10px;
   }
 
-  .css{
+  .css {
     width: 120px;
+  }
+
+  /* VIEWPORT */
+  .main {
+    height: 100vh;
+  }
+
+  .tech {
+    height: 110vh;
   }
 }
 
-@media (max-width: 375){
-  .icon{
+@media (max-width: 375px) {
+  .icon {
+    width: 120px;
+  }
+  .css {
     width: 100px;
   }
-  .css{
-    width: 80px;
+
+  .footer-text {
+    font-size: 18px;
+  }
+
+  /* VIEWPORT */
+  .main {
+    height: 80vh;
+  }
+
+  .tech {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .main {
+    height: 80vh;
+  }
+
+  .project {
+    height: 80vh;
+  }
+
+  /* VIEWPORT */
+  .tech {
+    height: ;
   }
 }
